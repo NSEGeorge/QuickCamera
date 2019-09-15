@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  QuickCamera
+
+  Created by Georgij Emelyanov on 15/09/2019.
+  Copyright © 2019 Georgij Emelyanov. All rights reserved.
+*/
+
+"CAMERA_PERMISSIONS_TITLE" = "Take photo and video";
+"CAMERA_PERMISSIONS_SUBTITLE_DAILY_PHOTO" = "Enable access to take a photo and video";
+"CAMERA_PERMISSIONS_CAMERA" = "Allow the camera usage";
+"CAMERA_PERMISSIONS_MICROPHONE" = "Allow the microphone usage";
+"PHOTO" = "Photo";
+"VIDEO" = "Video";

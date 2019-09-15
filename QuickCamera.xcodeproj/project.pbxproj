@@ -9,19 +9,45 @@
 /* Begin PBXBuildFile section */
 		7888930B232E64DA00178EDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7888930A232E64DA00178EDA /* AppDelegate.swift */; };
 		7888930D232E64DA00178EDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7888930C232E64DA00178EDA /* ViewController.swift */; };
-		78889310232E64DA00178EDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7888930E232E64DA00178EDA /* Main.storyboard */; };
 		78889312232E64DC00178EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78889311232E64DC00178EDA /* Assets.xcassets */; };
 		78889315232E64DC00178EDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78889313232E64DC00178EDA /* LaunchScreen.storyboard */; };
+		78889320232E69D300178EDA /* ModePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7888931F232E69D300178EDA /* ModePickerView.swift */; };
+		78889322232E69ED00178EDA /* ModePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78889321232E69ED00178EDA /* ModePickerCell.swift */; };
+		78889324232E6A3400178EDA /* CaptureButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78889323232E6A3400178EDA /* CaptureButton.swift */; };
+		78889326232E6A4800178EDA /* CaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78889325232E6A4800178EDA /* CaptureView.swift */; };
+		78889328232E6A5900178EDA /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78889327232E6A5900178EDA /* ContainerView.swift */; };
+		7888932A232E6A6700178EDA /* PermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78889329232E6A6700178EDA /* PermissionsView.swift */; };
+		7888932F232E6AAE00178EDA /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7888932E232E6AAE00178EDA /* CameraManager.swift */; };
+		78889333232E7BE600178EDA /* CameraManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78889332232E7BE600178EDA /* CameraManagerDelegate.swift */; };
+		78889335232E7DE500178EDA /* QuickCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78889334232E7DE500178EDA /* QuickCameraViewController.swift */; };
+		78889339232E9E4800178EDA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7888933B232E9E4800178EDA /* Localizable.strings */; };
+		7888933F232EA0A300178EDA /* UIFont+Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7888933E232EA0A300178EDA /* UIFont+Fonts.swift */; };
+		78889341232EA0FE00178EDA /* UICollectionView+Reuse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78889340232EA0FE00178EDA /* UICollectionView+Reuse.swift */; };
+		78889343232EA12300178EDA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78889342232EA12300178EDA /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		78889307232E64DA00178EDA /* QuickCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7888930A232E64DA00178EDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7888930C232E64DA00178EDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7888930F232E64DA00178EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78889311232E64DC00178EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78889314232E64DC00178EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78889316232E64DC00178EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7888931F232E69D300178EDA /* ModePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModePickerView.swift; sourceTree = "<group>"; };
+		78889321232E69ED00178EDA /* ModePickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModePickerCell.swift; sourceTree = "<group>"; };
+		78889323232E6A3400178EDA /* CaptureButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureButton.swift; sourceTree = "<group>"; };
+		78889325232E6A4800178EDA /* CaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureView.swift; sourceTree = "<group>"; };
+		78889327232E6A5900178EDA /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		78889329232E6A6700178EDA /* PermissionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsView.swift; sourceTree = "<group>"; };
+		7888932E232E6AAE00178EDA /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		78889332232E7BE600178EDA /* CameraManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManagerDelegate.swift; sourceTree = "<group>"; };
+		78889334232E7DE500178EDA /* QuickCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickCameraViewController.swift; sourceTree = "<group>"; };
+		78889336232E9DFF00178EDA /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		7888933A232E9E4800178EDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7888933C232E9E4C00178EDA /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7888933E232EA0A300178EDA /* UIFont+Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Fonts.swift"; sourceTree = "<group>"; };
+		78889340232EA0FE00178EDA /* UICollectionView+Reuse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Reuse.swift"; sourceTree = "<group>"; };
+		78889342232EA12300178EDA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +80,66 @@
 		78889309232E64DA00178EDA /* QuickCamera */ = {
 			isa = PBXGroup;
 			children = (
+				7888931C232E696C00178EDA /* Camera */,
 				7888930A232E64DA00178EDA /* AppDelegate.swift */,
 				7888930C232E64DA00178EDA /* ViewController.swift */,
-				7888930E232E64DA00178EDA /* Main.storyboard */,
+				7888933B232E9E4800178EDA /* Localizable.strings */,
 				78889311232E64DC00178EDA /* Assets.xcassets */,
 				78889313232E64DC00178EDA /* LaunchScreen.storyboard */,
 				78889316232E64DC00178EDA /* Info.plist */,
 			);
 			path = QuickCamera;
+			sourceTree = "<group>";
+		};
+		7888931C232E696C00178EDA /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				7888933D232EA08700178EDA /* Utils */,
+				7888932D232E6A9700178EDA /* Manager */,
+				7888931E232E69B000178EDA /* View */,
+				7888931D232E69A500178EDA /* ModePicker */,
+				78889334232E7DE500178EDA /* QuickCameraViewController.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		7888931D232E69A500178EDA /* ModePicker */ = {
+			isa = PBXGroup;
+			children = (
+				7888931F232E69D300178EDA /* ModePickerView.swift */,
+				78889321232E69ED00178EDA /* ModePickerCell.swift */,
+			);
+			path = ModePicker;
+			sourceTree = "<group>";
+		};
+		7888931E232E69B000178EDA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78889323232E6A3400178EDA /* CaptureButton.swift */,
+				78889325232E6A4800178EDA /* CaptureView.swift */,
+				78889327232E6A5900178EDA /* ContainerView.swift */,
+				78889329232E6A6700178EDA /* PermissionsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7888932D232E6A9700178EDA /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				7888932E232E6AAE00178EDA /* CameraManager.swift */,
+				78889332232E7BE600178EDA /* CameraManagerDelegate.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		7888933D232EA08700178EDA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7888933E232EA0A300178EDA /* UIFont+Fonts.swift */,
+				78889340232EA0FE00178EDA /* UICollectionView+Reuse.swift */,
+				78889342232EA12300178EDA /* Extensions.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +184,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 788892FE232E64DA00178EDA;
 			productRefGroup = 78889308232E64DA00178EDA /* Products */;
@@ -123,8 +202,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				78889315232E64DC00178EDA /* LaunchScreen.storyboard in Resources */,
+				78889339232E9E4800178EDA /* Localizable.strings in Resources */,
 				78889312232E64DC00178EDA /* Assets.xcassets in Resources */,
-				78889310232E64DA00178EDA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,27 +215,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				7888930D232E64DA00178EDA /* ViewController.swift in Sources */,
+				78889324232E6A3400178EDA /* CaptureButton.swift in Sources */,
+				78889320232E69D300178EDA /* ModePickerView.swift in Sources */,
+				7888933F232EA0A300178EDA /* UIFont+Fonts.swift in Sources */,
+				78889322232E69ED00178EDA /* ModePickerCell.swift in Sources */,
 				7888930B232E64DA00178EDA /* AppDelegate.swift in Sources */,
+				78889341232EA0FE00178EDA /* UICollectionView+Reuse.swift in Sources */,
+				78889333232E7BE600178EDA /* CameraManagerDelegate.swift in Sources */,
+				78889328232E6A5900178EDA /* ContainerView.swift in Sources */,
+				78889326232E6A4800178EDA /* CaptureView.swift in Sources */,
+				7888932F232E6AAE00178EDA /* CameraManager.swift in Sources */,
+				7888932A232E6A6700178EDA /* PermissionsView.swift in Sources */,
+				78889335232E7DE500178EDA /* QuickCameraViewController.swift in Sources */,
+				78889343232EA12300178EDA /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7888930E232E64DA00178EDA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7888930F232E64DA00178EDA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		78889313232E64DC00178EDA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				78889314232E64DC00178EDA /* Base */,
+				78889336232E9DFF00178EDA /* ru */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7888933B232E9E4800178EDA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7888933A232E9E4800178EDA /* en */,
+				7888933C232E9E4C00178EDA /* ru */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -166,6 +259,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -227,6 +321,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -285,6 +380,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C2FSQQDJPD;
 				INFOPLIST_FILE = QuickCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +399,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C2FSQQDJPD;
 				INFOPLIST_FILE = QuickCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
